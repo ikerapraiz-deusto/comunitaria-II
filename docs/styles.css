@@ -1,0 +1,14 @@
+/* css styles */
+
+@font-face {
+  font-family: "Cascadia ExtraLight";
+  src: url("fuente/Cascadia_Code/static/CascadiaCode-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+.navbar-logo {
+  max-height: 30px;   /* aumenta este valor para hacerlo más grande */
+  height: auto;
+}
+

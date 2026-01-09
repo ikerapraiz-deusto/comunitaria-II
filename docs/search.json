@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "posts/blog.html",
+    "href": "posts/blog.html",
+    "title": "Mi primera entrada",
+    "section": "",
+    "text": "Contenido en Markdown normal aquí."
+  },
+  {
+    "objectID": "posts/blog.html#sección-1",
+    "href": "posts/blog.html#sección-1",
+    "title": "Mi primera entrada",
+    "section": "Sección 1",
+    "text": "Sección 1\n\nLista de puntos\nCon código: {r} 1+1"
+  },
+  {
+    "objectID": "posts/blog.html#comentarios",
+    "href": "posts/blog.html#comentarios",
+    "title": "Mi primera entrada",
+    "section": "Comentarios",
+    "text": "Comentarios"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Enfermería familiar y comunitaria II",
+    "section": "",
+    "text": "xxxxx"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "entradas.html",
+    "href": "entradas.html",
+    "title": "Enfermería familiar y comunitaria II",
+    "section": "",
+    "text": "Mi primera entrada\n\n\n\nHistoria\n\n\n\nDescripción corta para el listado.\n\n\n\nIker Apraiz\n\n\n7 dic 2025\n\n\n\n\n\n\nNo hay resultados"
+  }
+]
