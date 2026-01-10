@@ -295,7 +295,30 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>xxxxx</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p style="font-size: 2em; text-align: left;">
+<strong><em>“La herramienta más poderosa del hombre…”</em></strong>
+</p>
+<p style="font-size: 2em; text-align: right;">
+<strong><em>“…al servicio de su mayor tesoro”</em></strong>
+</p>
+</div><div class="column" style="text-align: right;">
+<div style="width: 300px; height: 300px; border-radius: 50%; overflow: hidden; display: inline-block;">
+<p><img src="imagenes/inicio.jpg" class="img-fluid" style="filter: blur(2px); opacity: 0.95;"></p>
+</div>
+</div>
+</div>
+<hr>
+<p style="font-size: 2em; text-align: left;">
+¡Bienvenid@!
+</p>
+<p>Te encuentras en la página web dedicada a la asignatura de enfermería Familiar y Comunitaria II.</p>
+<p>Dentro de está página web encontrarás el <a href="./libro.html">libro teórico</a> donde se encuentran recogidos los conceptos trabajados en clase. A su vez, en la sección de <a href="./entradas.html">“blog”</a> encontrarás los distintos temas que comentaremos en clase.</p>
+<p><br></p>
+<p style="font-size: 3em; text-align: center;">
+<strong>¡Ánimo!</strong>
+</p>
 
 
 
@@ -385,7 +408,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/iapraiz\.quarto\.pub\/enfermería-familiar-y-comunitaria-ii");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

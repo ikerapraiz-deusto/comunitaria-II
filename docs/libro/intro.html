@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.7.29">
@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Repaso de Sistemas de la información y análisis de datos – Manual revisión crítica de la literatura</title>
+<title>1&nbsp; Introduction – Manual Comunitaria II</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,9 +65,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./revision.html" rel="next">
-<link href="./TFG.html" rel="prev">
-<link href="./portada.png" rel="icon" type="image/png">
+<link href="./summary.html" rel="next">
+<link href="./index.html" rel="prev">
+<link href="./imagenes/logo_sp.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -42,7 +77,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-364982630eef5352dd1537128a8ed5cb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-bf88f20cd85c43c9eb6a345530b0a0ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/quizdown-0.6.0/quizdown.js"></script>
+<script src="site_libs/quarto-contrib/quizdown-0.6.0/quizdownKatex.js"></script>
+<script src="site_libs/quarto-contrib/quizdown-0.6.0/quizdownHighlight.js"></script>
+<script src="site_libs/quarto-contrib/quizdown-0.6.0/quizdown-init.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -57,17 +96,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Sin resultados",
-    "search-matching-documents-text": "documentos encontrados",
-    "search-copy-link-title": "Copiar el enlace en la búsqueda",
-    "search-hide-matches-text": "Ocultar resultados adicionales",
-    "search-more-match-text": "resultado adicional en este documento",
-    "search-more-matches-text": "resultados adicionales en este documento",
-    "search-clear-button-title": "Borrar",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancelar",
-    "search-submit-button-title": "Enviar",
-    "search-label": "Buscar"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script async="" src="https://hypothes.is/embed.js"></script>
@@ -79,10 +118,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Repaso de Sistemas de la información y análisis de datos – Manual revisión crítica de la literatura">
+<meta name="twitter:title" content="1&nbsp; Introduction – Manual Comunitaria II">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://example.com/imagenes/piramide.webp">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-sidebar floating quarto-light">
@@ -91,13 +129,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Repaso de Sistemas de la información y análisis de datos</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html">Atención oftalmológica</a></li><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -109,12 +147,12 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./portada.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./imagenes/logo_sp.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Manual revisión crítica de la literatura</a> 
+      <a href="./">Manual Comunitaria II</a> 
         <div class="sidebar-tools-main">
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Alternar modo lector">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
@@ -124,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Buscar"></div>
+        <div id="quarto-search" class="" title="Search"></div>
         </div>
         </div>
     <div class="sidebar-menu-container"> 
@@ -132,71 +170,46 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introducción</span></a>
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./TFG.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Consistencia del Trabajo de fin de Grado</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Atención oftalmológica</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./intro.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Repaso de Sistemas de la información y análisis de datos</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./revision.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">La revisión crítica de la literatura.</span></span></a>
+  <a href="./summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./referentes.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Calidad y Herramientas</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./plagio_ia.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Plagio e Inteligencia artificial</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./link.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Bases de datos</span></span></a>
-  </div>
-</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Tabla de contenidos</h2>
-   
-  <ul>
-  <li><a href="#la-pregunta-de-investigación." id="toc-la-pregunta-de-investigación." class="nav-link active" data-scroll-target="#la-pregunta-de-investigación.">1. La pregunta de investigación.</a></li>
-  <li><a href="#la-pirámide-de-la-evidencia." id="toc-la-pirámide-de-la-evidencia." class="nav-link" data-scroll-target="#la-pirámide-de-la-evidencia.">2. La pirámide de la evidencia.</a></li>
-  <li><a href="#tipos-de-estudios-científicos." id="toc-tipos-de-estudios-científicos." class="nav-link" data-scroll-target="#tipos-de-estudios-científicos.">3. Tipos de estudios científicos.</a></li>
-  <li><a href="#población-y-muestra" id="toc-población-y-muestra" class="nav-link" data-scroll-target="#población-y-muestra">4. Población y muestra</a></li>
-  <li><a href="#selección-de-variables-y-recogida-de-datos" id="toc-selección-de-variables-y-recogida-de-datos" class="nav-link" data-scroll-target="#selección-de-variables-y-recogida-de-datos">5. Selección de variables y recogida de datos</a></li>
-  <li><a href="#análisis-de-datos" id="toc-análisis-de-datos" class="nav-link" data-scroll-target="#análisis-de-datos">6. Análisis de datos</a></li>
-  <li><a href="#requisitos-de-validez-de-los-estudios." id="toc-requisitos-de-validez-de-los-estudios." class="nav-link" data-scroll-target="#requisitos-de-validez-de-los-estudios.">7. Requisitos de validez de los estudios.</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html">Atención oftalmológica</a></li><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Repaso de Sistemas de la información y análisis de datos</span></h1>
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></h1>
 </div>
 
 
@@ -213,201 +226,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Antes de comenzar explicando en qué cosiste la revisión crítica de la literatura, comencemos con un pequeño repaso a lo que fue la asignatura de “Sistemas de la información y análisis de datos” de primero de carrera; debido a que utilizaremos muchos de sus recursos para realizar el propio TFG.</p>
-<p>Como recordarás, en la asignatura de sistemas nos centramos en explicar los pormenores generales de la investigación en las ciencias sanitarias: los tipos de estudios científicos, los diferentes tipos de evidencia, el uso de la estadística, la argumentación científica… Bien, todo esto es necesario para el TFG debido a que te encontrarás en una búsqueda de la <strong>mejor evidencia disponible</strong> para poder dar respuesta a un tema en concreto. Para poder dar respuesta a tu pregunta de investigación deberás, redactar una hipótesis y escribir una metodología, realizar la lectura crítica de los estudios que encuentres, saber interpretar y sintetizar sus resultados y, en última instancia, crear una discusión propia de una enfermera graduada.</p>
-<p>Durante este pequeño repaso, volveremos a ver los temas más importantes de la asignatura de sistemas de cada a que refresques aquellos conocimientos.</p>
-<section id="la-pregunta-de-investigación." class="level2">
-<h2 class="anchored" data-anchor-id="la-pregunta-de-investigación.">1. La pregunta de investigación.</h2>
-<p>Toda investigación comienza con una pregunta; una incognita que nos suscita interés y que queremos responder. En nuestra práctica clínica cotidiana normalmente estas preguntas van destinada a conocer mejor un problema de salud, predecir la situación de una persona o mejorar alguna intervención que realicemos. De este modo, podemos generalizar las preguntas de investigación en 3 categorías, a saber:</p>
-<ul>
-<li><p><strong>Destinadas a conocer un problema de salud o población:</strong> Estas preguntas se emplean para conocer mejor una condición de salud o a una población. Ejemplo: <em>“Explorar las características sociodemográficas de las personas diagnosticadas con Diabetes Mellitus tipo II antes de los 18 años en el área urbana de Algorta”</em></p></li>
-<li><p><strong>Destinadas a predecir una problema de salud o condición de salud:</strong> Estas preguntas se emplean para conocer que factores pueden llegar a predecir como y evolucionará un problema o condición de salud. Ejemplo: <em>“Determinar los factores pronósticos del fallo en la deshabituación tabáquica de la población entre 18 y 65 años en el área urbana de Algorta”</em>.</p></li>
-<li><p><strong>Destinadas a valorar la efectividad de una intervención:</strong> Estas preguntas se emplean para valorar si una intervención que ponemos en marcha realmente funciona. Ejemplo: <em>“Determinar la efectividad de un programa de deshabituación tabáquica en la población entre 18 y 65 años en el área urbana de Algorta”</em>.</p></li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Nota
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Cuando comenzamos con nuestra pregunta de investigación, debemos valorar en cual de estas 3 categorías se adecua mejor nuestra pregunta, de cara a saber con qué tipo de estudios nos encontraremos.</p>
-</div>
-</div>
-<p>Como bien sabes, para responder a nuestra pregunta de investigación debemos realizar estudios científicos que nos aportarán la respuesta. Pero si recuerdas, no todos los estudios científicos tenían la misma “fuerza” (no es lo mismo la opinión una sola persona que la un grupo de personas. No es lo mismo la opinión de un grupo de personas que el resultado de un ensayo clínico). Por ello, cuando vayamos a responder nuestra pregunta de investigación debemos de valorar “como de bien” la queremos responder. Para ello, teníamos la piramide de la evidencia, nuestra siguiente parada.</p>
-</section>
-<section id="la-pirámide-de-la-evidencia." class="level2">
-<h2 class="anchored" data-anchor-id="la-pirámide-de-la-evidencia.">2. La pirámide de la evidencia.</h2>
-<p>En aras de valorar que estudio científico tiene “mejor evidencia” existe, en la actualidad una especie de pirámide que nos recoge los distintos tipos de estudios científicos y nos los ordena por su orden de “importancia”.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="imagenes/piramide.webp" class="img-fluid figure-img"></p>
-<figcaption>Fernandez J. Oftalmología basada en la evidencia: la nueva pirámide de la evidencia “6S”. Oftalmol Clin Exp 2024; 17(2): e157-e165.</figcaption>
-</figure>
-</div>
-<p>Como puedes ver, en la actualidad, la pirámide no es “tan” rígida sino que la calidad de los estudios no dependerán solamente del tipo que sean si no de lo “bien” y “estricto” que se haya seguido el proceso al realizarlos. Pero por lo general, encontramos cómo los casos clínicos y las opiniones de expertos se encuentran en la escala más baja de la pirámide y las revisiones sistemática y meta-análisis en la parte más alta.</p>
-<p>En el medio encontramos los estudios de casos y controles, cohorte y ensayos clínicos. ¿Cuál es la lógica detrás de esta pirámide? Sencillo, poder aproximarnos al ansiado “causa-efecto”. Es decir, poder llegar a resultados fiables que nos puedan valer para nuestro día a día en la práctica clínica.</p>
-<p>Una vez repasada la pirámide debemos recordar los “tipos de estudios” que nos podemos encontrar. ¡Vamos con ello!</p>
-</section>
-<section id="tipos-de-estudios-científicos." class="level2">
-<h2 class="anchored" data-anchor-id="tipos-de-estudios-científicos.">3. Tipos de estudios científicos.</h2>
-<p>Por lo general, los diferentes tipos de estudios quieren responder a una pregunta de investigación; una hipótesis. Por ello, todos tienen un objetivo y, dependiendo del objetivo deberemos de usar un tipo de estudio u otro. Una forma fácil de clasificar a los estudios era por sus principales características:</p>
-<ul>
-<li><p>Tipo de <strong>valoración:</strong> Si los investigadores querían influir o no sobre la población que estudiaban:</p>
-<ul>
-<li><p>Estudios observacionales: Los investigadores no influyen solo la población. Solo la “miran”. Aquí encontramos estudios tipo: Estudios de cohortes, estudios casos y controles…</p></li>
-<li><p>Estudios intervencionales: Los investigadores realizan una acción sobre la población. Aquí encontramos estudios tipo: Ensayos clínicos aleatorios, ensayos clínicos no aleatorios, estudio cuasiexperimental.</p></li>
-</ul></li>
-<li><p>En función del <strong>tiempo</strong>: Si los investigadores miraban las variables hacia delante el estudio era <strong>prospectivo</strong>, si las miraban hacia atrás era <strong>retrospectivo</strong> y si las miraban en un momento concreto era <strong>transversal</strong>.</p></li>
-<li><p>En función de la <strong>relación entre las variables</strong>: Si los investigadores miraban describían las variables era <strong>descriptivo</strong>, si los investigadores relacionaban las variables era <strong>analítico</strong>.</p></li>
-</ul>
-<p>Con esta clasificación y realizando combinaciones, podemos unir ambas clasificaciones:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 51%">
-<col style="width: 48%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Primera clasificación</th>
-<th>Segunda clasificación</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ensayo clínico aleatorio</td>
-<td>Estudio intervencionista, prospectivo analítico con grupo control aleatorizado</td>
-</tr>
-<tr class="even">
-<td>Casos y controles</td>
-<td>Estudio observacional, retrospectivo descriptivo - analítico</td>
-</tr>
-<tr class="odd">
-<td>Cohortes</td>
-<td>Estudio observaciones, prospectivo descriptivo - analítico</td>
-</tr>
-</tbody>
-</table>
-<p>Gracias a estas clasificaciones podemos agrupar los distintos tipos de estudios que existen.</p>
-<p>Lo siguiente que tenemos que recordar es con lo que trabajan los estudios. Si recuerdas, los estudios trabajan con una población y con una muestra de la población…</p>
-</section>
-<section id="población-y-muestra" class="level2">
-<h2 class="anchored" data-anchor-id="población-y-muestra">4. Población y muestra</h2>
-<p>Los estudios valoran un objetivo sobre una población determinada (Bilbainos entre 18 y 65 años con Diabetes Mellitus tipo II). Pero, a veces, la población es demasiado grande para realizar el estudio sobre toda ella; por ello, por lo general, se hacía uso de la muestra.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Importante
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Se consideraba muestra a un subconjunto de la población a estudiar que representa a la población general en todas sus variables pertinentes para el estudio que se lleva a cabo.</p>
-</div>
-</div>
-<p>Para que los estudios pudiesen determinar que muestra iban a utilizar primero debían indicar cual iba a ser su población a estudio. Después debían indicar que método habían usado para identificar a la muestra. Existían dos formas, a saber:</p>
-<ul>
-<li><p>Muestra <strong>probabilística</strong>: Hacia uso de la teoría de la probabilidad para seleccionar a un subconjunto de la población que representase, de forma correcta, a la población. Aquí encontrábamos:</p>
-<ul>
-<li>Muestreo aleatorio simple.</li>
-<li>Muestreo por conglomerados.</li>
-<li>Muestreo estratificado.</li>
-</ul></li>
-<li><p>Muestra <strong>no probabilística</strong>: NO hacia uso de la teoría de la probabilidad y la muestra se escogía de tal forma que, el subconjunto escogido probablemente no representase de forma correcta a la población. Aquí encontrábamos:</p>
-<ul>
-<li>Muestreo por conveniencia.</li>
-<li>Muestreo en bola de nieve.</li>
-</ul></li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Nota
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Como seguro te habrás dado cuenta el muestreo probabilístico es el deseable desde el punto de vista metodológico pero no siempre es viable por dinero, tiempo, recursos…</p>
-</div>
-</div>
-<p>Una vez el estudio tiene ya su objetivo, su tipo de estudio y su población y muestra seleccionada, era hora de entrar en el mundo de las variables, la recogida de datos y el análisis estadístico…</p>
-</section>
-<section id="selección-de-variables-y-recogida-de-datos" class="level2">
-<h2 class="anchored" data-anchor-id="selección-de-variables-y-recogida-de-datos">5. Selección de variables y recogida de datos</h2>
-<p>La población que los estudios valoran tienen unas variables (edad, sexo, enfermedad…). Esas variables son las que importan a los investigadores de cara a responder su objetivo. Por ello, deben recogerlas a través de mediciones, formularios… Pero antes de recogerlas se deben definir y clasificar. Si recuerdas, teníamos una clasificación muy sencilla para las variables:</p>
-<ul>
-<li>Variables <strong>cualitativas</strong>: Eran aquellas variables que expresaban una cualidad de la persona. Teníamos dos tipos.
-<ul>
-<li>Ordinal: Aquellas cuyas podían tener un orden de importancia (poco, medio, mucho).</li>
-<li>Nominal: Aquellas cuyas categorías no tenían un orden (rubio, pelirrojo, castaño).</li>
-</ul></li>
-<li>Variables <strong>cuantitativas</strong>: Eran aquellas variables que expresaban una cantidad de un valor. Teníamos dos tipos:
-<ul>
-<li>Continuas: Aquellas cuya escala de medición podía contener todos los valores reales o enteros (187 cm, 187.2 cm…)</li>
-<li>Discretas: Aquellas cuya escala se medición contenía “saltos” (1 cabeza, 2 cabezas…).</li>
-</ul></li>
-</ul>
-<p>Una vez que teníamos nuestras variables seleccionadas, llega el momento de realizar la recogida de datos y/o de realizar la intervención (si es un estudio intervencionista).</p>
-</section>
-<section id="análisis-de-datos" class="level2">
-<h2 class="anchored" data-anchor-id="análisis-de-datos">6. Análisis de datos</h2>
-<p>Una vez que los datos se han recogido, llega el momento de ser analizados por los investigadores. Para ello hacíamos uso de la estadística. Si recuerdas, podíamos realizar dos cosas con los datos: Resumir los resultados de las variables o analizar la relación entre ellas. Para ello teníamos dos tipos de estadística:</p>
-<ul>
-<li><p><strong>Estadística descriptiva</strong>: La utilizábamos para describir y resumir los datos. Porcentajes, medias, rangos intercuartílicos…</p></li>
-<li><p><strong>Estadística inferencial</strong>: La utilizábamos para valorar la relación entre variables. Aquí teníamos distintas pruebas estadísticas (prueba t, chi-cuadrado…). Todas las pruebas de la estadística inferencial devolvían un valor de “p”. Si recuerdas, lo interpretábamos como sigue:</p>
-<ul>
-<li>Si la <strong>p &gt; 0.05</strong>: Decíamos que no había “diferencia” entre los grupos estudiados.</li>
-<li>Si la <strong>p &lt; 0.05</strong>: Decíamos que había “diferencia” entre los grupos estudiados.</li>
-</ul></li>
-</ul>
-<p>Si recuerdas, en función de las variables que fueran y el tipo de estudio, una diferencia entre ellas podía significar una cosa u otra. Pongamos un ejemplo:</p>
-<p><em>“En un ensayo clínico aleatorio los grupos tenían que ser iguales antes de realizar la intervención; por tanto si comparábamos las variables por grupos los valores de p tenían que ser &gt; 0.05. Sin embargo, tras realizar la intervención, si ésta había funcionado, la variable resultado tenía que ser diferente entre el grupo intervención y el grupo control (valor de p &lt; 0.05)”</em></p>
-</section>
-<section id="requisitos-de-validez-de-los-estudios." class="level2">
-<h2 class="anchored" data-anchor-id="requisitos-de-validez-de-los-estudios.">7. Requisitos de validez de los estudios.</h2>
-<p>Finalmente, hablemos un poco de los requisitos que tenían que cumplir los estudios de investigación para ser “fiables”.</p>
-<p>Si recuerdas, durante el proceso de realización de los estudios podían cometerse errores. Esos errores eran los <strong>sesgos</strong> que los definíamos como <em>errores sistemáticos que influyen en la validez de los resultados</em>. Teníamos diferentes sesgos en todo el proceso de realizar del estudio: desde el planteamiento de la pregunta de investigación hasta el análisis de los resultados (pasando por el proceso de selección de la muestra, la recogida de datos…).</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Nota
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>La existencia de sesgos en una investigación podían afectar a su <strong>validez</strong></p>
-</div>
-</div>
-<p>A su vez, teníamos el concepto de validez. Los estudios científicos tenían que ser válidos para poder tener en cuenta sus resultados y contexto. En este sentido, encontramos dos tipos de validez, a saber:</p>
-<ul>
-<li><strong>Validez interna:</strong> Los estudios estaban correctamente realizados y sus resultados eran fiables para la muestra que se había planteado.</li>
-<li><strong>Validez externa:</strong> Los estudios estaban correctamente realizados y sus resultados eran fiables para la población general que representaba su muestra.</li>
-</ul>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Importante
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Como habrás imaginado, para que un estudio tenga <strong>validez externa</strong>, debe tener <strong>validez interna</strong> y, a su vez, su muestra debe ser representativa de la población.</p>
+<p>This is a book created from markdown and executable code.</p>
+<p>See <span class="citation" data-cites="knuth84">@knuth84</span> for additional discussion of literate programming.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2</code></pre>
 </div>
 </div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -435,12 +263,12 @@ Importante
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copiado");
+      button.setAttribute("title", "Copied!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copiado");
+        button.setAttribute("data-bs-title", "Copied!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -811,13 +639,13 @@ Importante
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./TFG.html" class="pagination-link" aria-label="Consistencia del Trabajo de fin de Grado">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Consistencia del Trabajo de fin de Grado</span></span>
+      <a href="./index.html" class="pagination-link" aria-label="Preface">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./revision.html" class="pagination-link" aria-label="La revisión crítica de la literatura.">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">La revisión crítica de la literatura.</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./summary.html" class="pagination-link" aria-label="Summary">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -828,7 +656,7 @@ Importante
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p><span style="display: flex; flex-direction: column; align-items: center;"> <span> Trabajo fin de grado. Grado de Enfermería. Curso 2025/26. </span> <span style="display: inline-flex; align-items: center;"> <img src="logo.jpg" alt="Logo" height="20" style="margin-right: 8px;"> <span height="15">Universidad del País Vasco</span> </span> </span></p>
+<p><span style="display: flex; flex-direction: column; align-items: center;"> <span> Teoría de Clínica III. Grado de Enfermería. Curso 2025/26. </span> <span style="display: inline-flex; align-items: center;"> <img src="imagenes/pp.png" alt="Logo" height="20" style="margin-right: 8px;"> <span height="15">Universidad de Deusto</span> </span> </span></p>
 </div>
     <div class="nav-footer-right">
       &nbsp;
