@@ -1,31 +1,24 @@
 [
   {
-    "objectID": "posts/blog.html",
-    "href": "posts/blog.html",
-    "title": "Mi primera entrada",
+    "objectID": "Recursos.html",
+    "href": "Recursos.html",
+    "title": "Recursos varios",
     "section": "",
-    "text": "Contenido en Markdown normal aquí."
+    "text": "En esta sección encontrarás distintos recursos recopilados y tratados a lo largo del temario.\n\n\n\n\n\nFundación educación para la salud: https://educacionparalasalud.org/\nMapa de la evidencia (OMS): https://bvsalud.org/mapa-de-evidencias/es/\nOrganización dedicada a la inequidad en salud: https://health-inequalities.eu/\nOrganización CFIR para estrategias de implementación: https://cfirguide.org/constructs/inner-setting/access-knowledge-information/\nOrganización para la evaluación del impacto en salud: https://www.3ieimpact.org/\nOrganización centrada en evaluar las necesidades del paciente: https://www.pcori.org/\nOrganización centrada en la creación de diseños de investigación: https://d3c.isr.umich.edu/\nOrganización Cosmin para herramientas de evaluación: https://www.cosmin.nl/\n\n\n\n\n\nLibro de epidemiología con R: https://epirhandbook.com/es/index.es.html\nArtículo sobre mapeado de la intervención: https://pmc.ncbi.nlm.nih.gov/articles/PMC6592155/\nArtículo sobre rueda del cambio: https://pubmed.ncbi.nlm.nih.gov/21513547/\nHerramientas para valoración de inequidad en salud: https://health-inequalities.eu/resources/tools-to-measure-and-address-health-inequalities/\n\n\n\n\n\nRepositorio de datos general: https://zenodo.org/\nOrganización centrada en seguimiento de enfermedades infecciosas: https://www.promedmail.org/\nDatos de inequidad en salud OMS: https://www.who.int/data/inequality-monitor/data\nRepositorio de datos europeos: https://ec.europa.eu/eurostat\nVisor de datos del Gobierno Vasco: https://www.geo.euskadi.eus/geobisorea"
   },
   {
-    "objectID": "posts/blog.html#sección-1",
-    "href": "posts/blog.html#sección-1",
-    "title": "Mi primera entrada",
-    "section": "Sección 1",
-    "text": "Sección 1\n\nLista de puntos\nCon código: {r} 1+1"
+    "objectID": "Recursos.html#enlaces-web",
+    "href": "Recursos.html#enlaces-web",
+    "title": "Recursos varios",
+    "section": "",
+    "text": "Fundación educación para la salud: https://educacionparalasalud.org/\nMapa de la evidencia (OMS): https://bvsalud.org/mapa-de-evidencias/es/\nOrganización dedicada a la inequidad en salud: https://health-inequalities.eu/\nOrganización CFIR para estrategias de implementación: https://cfirguide.org/constructs/inner-setting/access-knowledge-information/\nOrganización para la evaluación del impacto en salud: https://www.3ieimpact.org/\nOrganización centrada en evaluar las necesidades del paciente: https://www.pcori.org/\nOrganización centrada en la creación de diseños de investigación: https://d3c.isr.umich.edu/\nOrganización Cosmin para herramientas de evaluación: https://www.cosmin.nl/\n\n\n\n\n\nLibro de epidemiología con R: https://epirhandbook.com/es/index.es.html\nArtículo sobre mapeado de la intervención: https://pmc.ncbi.nlm.nih.gov/articles/PMC6592155/\nArtículo sobre rueda del cambio: https://pubmed.ncbi.nlm.nih.gov/21513547/\nHerramientas para valoración de inequidad en salud: https://health-inequalities.eu/resources/tools-to-measure-and-address-health-inequalities/\n\n\n\n\n\nRepositorio de datos general: https://zenodo.org/\nOrganización centrada en seguimiento de enfermedades infecciosas: https://www.promedmail.org/\nDatos de inequidad en salud OMS: https://www.who.int/data/inequality-monitor/data\nRepositorio de datos europeos: https://ec.europa.eu/eurostat\nVisor de datos del Gobierno Vasco: https://www.geo.euskadi.eus/geobisorea"
   },
   {
-    "objectID": "posts/blog.html#comentarios",
-    "href": "posts/blog.html#comentarios",
-    "title": "Mi primera entrada",
-    "section": "Comentarios",
-    "text": "Comentarios"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "entradas.html",
+    "href": "entradas.html",
     "title": "Enfermería familiar y comunitaria II",
     "section": "",
-    "text": "“La herramienta más poderosa del hombre…”\n\n\n“…al servicio de su mayor tesoro”\n\n\n\n\n\n\n\n\n\n¡Bienvenid@!\n\nTe encuentras en la página web dedicada a la asignatura de enfermería Familiar y Comunitaria II.\nDentro de está página web encontrarás el libro teórico donde se encuentran recogidos los conceptos trabajados en clase. A su vez, en la sección de “blog” encontrarás los distintos temas que comentaremos en clase.\n\n\n¡Ánimo!"
+    "text": "Cuando el agua no daba la vida\n\n\n\nHistoria\n\n\n\nEn esta primera entrada comentaremos una de las primeras medidas de Salud Pública de la edad moderna. No adentraremos en el Londres del siglo XIX para contemplar como el…\n\n\n\nIker Apraiz\n\n\n12 ene 2026\n\n\n\n\n\n\nNo hay resultados"
   },
   {
     "objectID": "about.html",
@@ -35,10 +28,17 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "entradas.html",
-    "href": "entradas.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Enfermería familiar y comunitaria II",
     "section": "",
-    "text": "Mi primera entrada\n\n\n\nHistoria\n\n\n\nDescripción corta para el listado.\n\n\n\nIker Apraiz\n\n\n7 dic 2025\n\n\n\n\n\n\nNo hay resultados"
+    "text": "“La herramienta más poderosa del hombre…”\n\n\n“…al servicio de su mayor tesoro”\n\n\n\n\n\n\n\n\n\n¡Bienvenid@!\n\nTe encuentras en la página web dedicada a la asignatura de enfermería Familiar y Comunitaria II.\nDentro de está página web encontrarás el libro teórico donde se encuentran recogidos los conceptos trabajados en clase. A su vez, en la sección de “blog” encontrarás los distintos temas que comentaremos en clase. Finalmente, en la sección “Recursos” encontrarás enlaces a distintas páginas web y recursos para afianzar tus conocimientos.\n\n\n¡Ánimo!"
+  },
+  {
+    "objectID": "posts/blog.html",
+    "href": "posts/blog.html",
+    "title": "Cuando el agua no daba la vida",
+    "section": "",
+    "text": "El Londres del siglo XIX se nos contempla distinto a como lo conocemos hoy en día. La salubridad en la era industrial se tornoba, casí inexistente. Los alcantarillados, aunque funcionales, eran insuficientes y la mayoría de los residuos se almacenaban en “pozos negros” que debían vaciarse con frecuencia.\nEn el septiembre de 1854 Londres se encontraba afectado por una epidemia de cólera que afectaba a la ciudad. Durante esta época la teoría del germen todavía no se había desarrollado y la teoría de los miasmas se encontraba vigente. Según esta teoría, las enfermedades era causadas debido a humores que se desprendían de la tierra.\n\n\n\n\n\n\n\n\n\n\nEn medio de ésta situación, John Snow, un médico londinense, se propuso el reto de encontrar el origen de la epidemia del Colera. A través de la observación buscó patrones del inicio de la enfermedad por los distintos barrios de la ciudad. Para ello, localizó las casas de los 578 fallecidos por la epidemia y, si su teoría era correcta, el origen de la enfermedad tenía que encontrarse cerca de sus casas.\nSe percató de un detalle curioso, la mayoría de los casos de cólera se concentraban en los barrios más empobrecidos de la ciudad, cerca de las fuentes de agua de éstos barrios. Debido a esto teorizó que la enfermedad podía estar causada por las 13 fuentes que se encontraban en dichos barrios. Logró que el ayuntamiento de Londres diese la orden de cerrar dichas fuentes y tras ello, la epidemia de Cólera fué disminuyendo hasta casi desaparecer.\nEn la actualidad, conocemos que el Cólera es causado por la bacteria “Vibrio cholerae”. Esta bactería, habitual de las aguas fecales, causa una infección gastrointestinal severa. En el Londres de aquella época era habitual concudir las heces a las aguas del río Támesis, mismo río sobre el cual se extraía el agua para los pozos. Los barrios más desfavorecidos de la ciudad se encontraban en la zona baja del Támesis y adquirían el agua de una zona del río cargada de aguas fecales. Mientras que los barrios más favorecidos de la ciudad se encontraban ubicados rio arriba, adquiriendo el agua antes de que fuera contaminada.\nJohn Snow no localizó la causa de la epidemía, pero si localizó con éxito el vector que transmitía la enfermedad. Éste hecho se considera una de las primera medidas modernas de Salud Pública ya que se utilizó la observación y la búsqueda de patrones (haciendo uso de la estadística) para solucionar una problema global a toda una población.\n\n\n\n\n\n\n\nPara reflexionar…\n\n\n\n\n¿Todas las personas en Londres tenían las mismas probabilidades de contraer el Cólera?\n¿Las probabilidades de contraer el Cólera se distribuía de forma igualitaria?\n¿Era justa la distribución de las probabilidades?\n¿Encontraron la causa real del Cólera?\n¿Es estrictamente necesario conocer la causa de la enfermedad para poder tratarla?\n¿Qué es la causalidad?"
   }
 ]
