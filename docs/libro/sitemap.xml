@@ -2,30 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://example.com/index.html</loc>
-    <lastmod>2026-01-10T10:31:39.913Z</lastmod>
+    <lastmod>2026-01-10T10:31:40.000Z</lastmod>
   </url>
   <url>
     <loc>https://example.com/intro.html</loc>
-    <lastmod>2026-01-14T16:49:24.498Z</lastmod>
+    <lastmod>2026-01-14T16:49:26.000Z</lastmod>
   </url>
   <url>
     <loc>https://example.com/cap_1_determinantes.html</loc>
-    <lastmod>2026-01-16T13:19:05.090Z</lastmod>
+    <lastmod>2026-01-16T13:19:06.000Z</lastmod>
   </url>
   <url>
     <loc>https://example.com/cap_1_desarrollo_programa_salud.html</loc>
-    <lastmod>2026-01-12T17:55:14.655Z</lastmod>
+    <lastmod>2026-01-12T17:55:16.000Z</lastmod>
   </url>
   <url>
     <loc>https://example.com/Cap_2_Necesidades_salud.html</loc>
-    <lastmod>2026-01-16T11:12:24.068Z</lastmod>
+    <lastmod>2026-03-25T16:40:09.000Z</lastmod>
   </url>
   <url>
     <loc>https://example.com/Cap_2_Monitorizacion.html</loc>
-    <lastmod>2026-01-16T18:06:30.710Z</lastmod>
+    <lastmod>2026-01-21T11:06:54.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://example.com/Cap_3_Educacion_salud.html</loc>
+    <lastmod>2026-03-26T09:45:11.861Z</lastmod>
+  </url>
+  <url>
+    <loc>https://example.com/Cap_4_intervenciones_educacion.html</loc>
+    <lastmod>2026-03-25T16:40:09.077Z</lastmod>
   </url>
   <url>
     <loc>https://example.com/Cap_0_recursos.html</loc>
-    <lastmod>2026-01-16T13:18:02.686Z</lastmod>
+    <lastmod>2026-03-26T09:48:28.721Z</lastmod>
   </url>
 </urlset>
